@@ -1,0 +1,15 @@
+.teamspage_teamlist{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.teamspage_team{ 
+    width: 31%;
+    min-width: 500px;
+    margin: 20px
+}
+
+
+

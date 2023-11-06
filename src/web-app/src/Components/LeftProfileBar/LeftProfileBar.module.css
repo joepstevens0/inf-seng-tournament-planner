@@ -1,0 +1,33 @@
+@import '../../global.css';
+
+.card {
+	text-align: center;
+	padding-bottom: 100%;
+	width: 80%;
+	margin: 0 auto;
+	min-width: 300px;
+	
+}
+
+.profilepic {
+	width: 200px !important;
+	height: 200px !important;
+	margin: 0 auto;
+}
+
+.usernamebox {
+	display: flex;
+    align-items: center;
+	width: 30%;
+	margin: 0 auto !important;
+	justify-content: center !important;
+}
+
+.cardContent {
+	width: 30%;
+	margin: 0 auto !important;
+}
+
+.achievementsButton{
+	width: 100%;
+}

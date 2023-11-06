@@ -1,0 +1,11 @@
+@import '../../global.css';
+
+.tournament_card_container_div{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;;
+}

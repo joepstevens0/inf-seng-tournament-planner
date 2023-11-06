@@ -1,0 +1,25 @@
+.wrapper {
+	text-align: center;
+}
+
+.login_form_fields {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.form_field {
+	width: 30%;
+	margin: 1%;
+}
+
+.error {
+	color: var(--dark-secondary);
+}
+
+.button_style{
+	background-color: var(--button-color) !important;
+	color: black !important;
+}

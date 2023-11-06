@@ -1,0 +1,65 @@
+@import '../../global.css';
+
+.mask {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    pointer-events: all;
+}
+.popup {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom:0px;
+    pointer-events: none;
+    z-index: 3;
+}
+.popupcontainer {
+    pointer-events: all;
+    min-width: 300px;
+    height: fit-content;
+    max-width: 1000px;
+
+    margin: auto;
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    top: 40px;
+
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+}
+
+.title{
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.popupcontent{
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 20px;
+}

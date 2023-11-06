@@ -1,0 +1,45 @@
+@import '../../global.css';
+
+.card_div{
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: all ease 0.1s;
+
+    border-radius: 10px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #ffffff, #7f8bccad);
+}
+
+.card_clickable:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card_name{
+    width: fit-content;
+    margin: auto;
+    font-size: 21px;
+    height: fit-content;
+    vertical-align: middle;
+}
+
+.card_leader{
+    display: flex;
+}
+.card_teammember_list{
+    display: flex;
+    overflow-y: auto;
+}
+.card_username{
+    padding: 5px;
+    margin-left: 5px;
+
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: fit-content;
+}

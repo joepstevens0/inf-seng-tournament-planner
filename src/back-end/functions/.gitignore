@@ -1,0 +1,16 @@
+# Compiled JavaScript files
+.eslintrc.js
+**/*.js.map
+
+# Except the ESLint config file
+!.eslintrc.js
+
+# TypeScript v1 declaration files
+typings/
+
+# Node.js dependency directory
+node_modules/
+
+# Firebase service account, THIS FILE HAS TO BE PRIVATE, it contains
+# the authentication data for our firebase project
+firebase_service_account.json

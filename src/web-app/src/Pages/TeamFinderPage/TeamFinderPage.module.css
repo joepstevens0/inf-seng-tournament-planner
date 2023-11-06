@@ -1,0 +1,58 @@
+@import '../../global.css';
+
+.lobbylist{
+    width: 100%;
+}
+.createbutton{
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.gamelist{
+    margin: 10px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.gamecard{
+    min-width: 300px;
+    width: calc(100% / 5);
+    margin: 10px;
+    float: left;
+    display: block;
+
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: #7f8bcc5e; 
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.button_style{
+    background-color: var(--button-color) !important;
+    color: black !important;
+}
+
+
+.backbutton{
+    float: left;
+
+}
+
+h2{
+    padding-top: 10px;
+    margin:10px;
+}

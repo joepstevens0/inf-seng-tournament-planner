@@ -1,0 +1,11 @@
+.inline {
+    display: inline;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.icon {
+    margin-right: 15px;
+}

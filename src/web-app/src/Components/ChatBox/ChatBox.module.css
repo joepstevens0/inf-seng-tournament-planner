@@ -1,0 +1,63 @@
+@import '../../global.css';
+
+
+.chatboxdiv{
+    border: 1px solid black;
+    max-width: 500px;
+    margin: 10px;
+    height: 100%;
+}
+
+.chatmessage{
+    width: auto;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.messagelist{
+    list-style: none;
+    border-top: 1px solid black;
+    height: calc(100% - 90px);
+    overflow-y: scroll;
+}
+.messagetime{
+    display: block;
+    float: left;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.messagedata{
+    width: 90%;
+    display: block;
+}
+
+.not_loggedin_text{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.not_loggedin_text:hover{
+    /*TODO*/
+    transform: scale(1.03);
+}
+
+.messagecreation{
+    height: 70px;
+    width: 100%;
+    display: relative;
+    bottom: 0px;
+}
+
+.messagecreation_field{
+    width: calc(100% - 100px);
+    float: left;
+}
+
+.messagecreation_sendbutton{
+    float: right;
+    margin: 10px;
+}

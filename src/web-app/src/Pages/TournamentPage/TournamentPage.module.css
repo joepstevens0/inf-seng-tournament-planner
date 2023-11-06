@@ -1,0 +1,174 @@
+@import '../../global.css';
+
+.tournamentpage_container {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	position: fixed;
+	top: 65px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+}
+
+.tournamentpage_left {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 10px;
+}
+
+.tournamentpage_tournamentname {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	grid-area: name;
+}
+
+.tournamentpage_tournamentname h1 {
+	margin: 0px;
+	align-self: center;
+}
+
+.tournamentpage_tournamentinfo_container {
+	grid-area: info;
+}
+
+.tournamentpage_tournamentinfo {
+	width: 70%;
+	height: 200px;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	word-break: break-all;
+	overflow: auto;
+}
+
+.tournamentpage_tournamentinfo h1 {
+	margin: 0px;
+	align-self: center;
+	text-decoration: underline;
+}
+
+.tournament_description{
+	padding: 15px;
+}
+
+.prize_title {
+	padding-top: 20px;
+	display: inline;
+}
+
+.prize_content {
+	display: inline;
+	padding-left: 15px;
+}
+
+.game_title {
+	padding-top: 20px;
+	display: inline;
+}
+
+.game_content {
+	display: inline;
+	padding-left: 15px;
+}
+
+
+.tournamentpage_contact {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.chatpopup {
+	max-height: 40vh !important;
+	overflow-y: auto;
+}
+
+.tournamentpage_leave {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.tournamentpage_edit {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.tournamentpage_tournamentrender {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.tournamentpage_tournamentviewteams {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.tournamentpage_tournamentupdate {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.tournamentpage_tournamentsubmitwinners {
+	padding: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.tournamentpage_right {
+	height: 100%;
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+}
+.button {
+	width: 70%;
+	margin: 0 auto;
+	background-color: white !important;
+}
+
+.tournamentpage_visual {
+	/* background-color: brown; */
+	/* overflow: hidden; */
+	margin: 10px auto;
+	height: 90%;
+	width: 80%;
+}
+
+.tournamentpage_teaminfo_container {
+	/* background-color: yellow; */
+}
+
+.teamcard {
+	width: 80%;
+	margin: 2%;
+}
+
+.tournamentpage_teaminfo {
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	word-break: break-all;
+}
+.tournamentpage_teaminfo h1 {
+	margin: 0px;
+	align-self: center;
+	text-decoration: underline;
+}

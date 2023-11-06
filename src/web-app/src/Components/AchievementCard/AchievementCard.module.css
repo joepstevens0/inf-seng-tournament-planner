@@ -1,0 +1,47 @@
+@import '../../global.css';
+
+.card_div{
+    height: 150px;
+    width: 300px;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+
+    transition: all ease 0.1s;
+
+    border-radius: 5px;
+
+    background-color: white;
+
+    margin: 10px;
+}
+
+.card_clickable:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card_achievement_name{
+    width: 100%;
+    margin: 10px;
+    height: fit-content;
+    display: block;
+    font-size: 20px;
+    overflow-y: hidden;
+}
+
+.card_achievement_description{
+    margin-left: 10px;
+    width: 95%;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    color: var(--light-secondary);
+
+    overflow-y: auto;
+}
+
+.card_achievement_achievedate{
+    color: #777777;
+    margin-left: 10px;
+}

@@ -1,0 +1,9 @@
+@import '../../global.css';
+
+.profile_post_container_div{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    width: 95%;
+    
+}

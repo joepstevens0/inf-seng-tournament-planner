@@ -1,0 +1,24 @@
+
+.inputfield{
+    margin: 5px;
+    display: block;
+    text-align: center;
+}
+
+.gameform{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+.title{
+    display: block;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.button_style{
+    background-color: var(--button-color) !important;
+    color: black !important;
+}

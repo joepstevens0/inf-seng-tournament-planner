@@ -1,0 +1,38 @@
+@import '../../global.css';
+
+.card_div{
+    height: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all ease 0.1s;
+    border-radius: 10px;
+    color: black;
+    background-image: linear-gradient(to bottom right, #ffffff, #7f8bccad);
+
+}
+
+.card_div:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card_game_name{
+    width: 100%;
+    margin: 10px;
+    height: fit-content;
+    display: block;
+    font-size: 20px;
+}
+
+.card_game_info{
+    margin-left: 10px;
+    width: 95%;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    color: black;
+
+    overflow-y: auto;
+}

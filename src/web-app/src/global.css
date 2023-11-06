@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=Roboto:ital,wght@1,900&display=swap');
+
+:root {
+	--dark-primary: #660708;
+	--dark-secondary: #a4161a;
+	--dark-tertiary: #ba181b;
+	--dark-inverse: #d3d3d3;
+
+	--light-primary: #ffffff;
+	--light-secondary: #b1a7a6;
+	--light-tertiary: #161a1d;
+	--light-inverse: #660708;
+	--button-color: #9bade5b6;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	background-color: transparant;
+}
+body {
+	background-color: #F0F2F5;
+}
+

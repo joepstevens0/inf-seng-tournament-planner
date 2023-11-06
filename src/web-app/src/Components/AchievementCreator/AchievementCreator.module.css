@@ -1,0 +1,30 @@
+@import '../../global.css';
+
+.achievementcreator{
+    margin: 10px;
+    width: 98%;
+}
+
+.achievementcreator_list{
+    display: -webkit-inline-box;
+    overflow-y: auto;
+    max-width: 100%;
+}
+.achievementcreator_createbutton{
+    width: 85%;
+    background-color: var(--button-color) !important;
+    color: black;
+    /* border: 1px solid black !important; */
+}
+
+.achievementcreator_form{
+    width: 80%;
+    margin:auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.button_style{
+	background-color: var(--button-color) !important;
+	color: black !important;
+}

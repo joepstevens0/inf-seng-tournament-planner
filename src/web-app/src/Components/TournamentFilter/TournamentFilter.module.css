@@ -1,0 +1,82 @@
+@import '../../global.css';
+
+.tournamentfilter {
+	width: 95%;
+	margin: auto;
+	background-color: var(--button-color);
+	opacity: 0.9;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+	display: flex;
+
+	color: white;
+}
+
+.searchfield {
+	
+	height: 100%;
+	width: 290px;
+	padding: 5px;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	margin: 4px;
+}
+
+.searchfield_label {
+	vertical-align: middle;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 5px;
+	float: left;
+}
+
+.searchfield_field {
+	background-color: white;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.search_gamefield{
+	margin: 4px;
+	padding: 5px;
+	height: 100%;
+	width: 290px;
+
+	background-color: white;
+	border-radius: 5px;
+}
+
+.fullcheckbox{
+	padding: 5px;
+	display: flex;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 5px;
+	margin: 4px;
+}
+
+.fullcheckbox_label{
+	margin: auto;
+	padding: 10px;
+	padding-right: 0;
+}
+
+.ownercheckbox{
+	padding: 5px;
+	display: flex;
+	background-color: white;
+	color: black;
+	text-align: center;
+	border-radius: 5px;
+	margin: 4px;
+}
+.ownercheckbox_label{
+	margin: auto;
+	padding: 10px;
+	padding-right: 0;
+}

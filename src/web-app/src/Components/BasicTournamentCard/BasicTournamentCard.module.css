@@ -1,0 +1,60 @@
+@import '../../global.css';
+
+.card_div{
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30% 15% 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    transition: all ease 0.1s;
+
+    border-radius: 10px;
+
+    background-image: linear-gradient(to bottom right, #ffffff, #7f8bccad);
+
+    margin: 10px;
+}
+
+.card_clickable:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.card_tournament_name{
+    width: 100%;
+    margin: 10px;
+    height: fit-content;
+    display: block;
+    font-size: 20px;
+}
+
+.card_tournament_info{
+    margin-left: 10px;
+    width: 95%;
+    display: block;
+    position: relative;
+    bottom: 0px;
+    color: var(--light-secondary);
+
+    overflow-y: auto;
+}
+
+/* playercounter */
+.card_tournament_playercount{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.card_tournament_playercount_label{
+    width: fit-content;
+    float: left;
+    color: var(--light-secondary);
+}
+.card_tournament_playercount_number{
+    color: black;
+    width: fit-content;
+    float: left;
+    margin-left: 10px;
+}

@@ -1,0 +1,94 @@
+@import '../../global.css';
+.toolbar {
+    display: grid !important;
+    grid-template-columns: 4fr 15fr 11fr 7fr 18fr 1fr 5fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    background-color: white;
+    /* background-image: linear-gradient(to right, #740404, #ffffff); */
+    border-bottom: 1px solid black;
+    color: #746262c2
+}
+
+.link {
+    color: black;
+    font-style: italic;
+}
+
+.textbtn {
+    height: 100%;
+    vertical-align: middle;
+    /* padding: auto; */
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+.teamfinderbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-variant: small-caps;
+    float: right;
+}
+
+.teamfinderbtn:hover {
+    background-color: #7f8bcc4b;
+    transform: scale(1.05);
+}
+
+.tournamentbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-variant: small-caps;
+}
+
+.tournamentbtn:hover {
+    background-color: #7f8bcc4b;
+    transform: scale(1.05);
+}
+
+.teamsbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-variant: small-caps;
+}
+.teamsbtn:hover{
+    background-color: #7f8bcc4b;
+    transform: scale(1.05);
+}
+.dropdownBtn {
+    height: 100%;
+}
+
+.profile_avatar {
+    border: 2px solid black !important;
+    color: white !important;
+    background-color: #3c4997bb !important;
+}
+
+.icon_avatar {
+    border: 1px solid black!important;
+    background-color: white !important;
+    transition: all ease 0.2s;
+}
+
+.icon_avatar:hover {
+    background-color: #7f8bcc4b  !important;
+}
+
+.white_svg {
+    color: black;
+}

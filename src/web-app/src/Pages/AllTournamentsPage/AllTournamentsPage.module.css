@@ -1,0 +1,12 @@
+@import '../../global.css';
+
+.header{
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.button_style{
+    background-color: var(--button-color) !important;
+    color: black !important;
+}
+

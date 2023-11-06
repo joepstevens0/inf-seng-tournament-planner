@@ -1,0 +1,74 @@
+@import "../../global.css";
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.lobby_name{
+    
+}
+.lobby_info{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-height: 80vh;
+}
+.description{
+    width: 100%;
+}
+.description_label{
+    margin: 10px;
+}
+.description_info{
+    max-height: 250px;
+    margin: 10px;
+    overflow-y: auto;
+}
+.joinbutton{
+    width: 100px;
+    margin: 10px;
+}
+
+.playerlist{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 500px;
+    height: fit-content;
+    width: 100%;
+}
+.playerlist_header{
+    font-size: 21px;
+}
+
+.playerlist_players{
+    margin: 10px;
+}
+.playerlist_usercard{
+    margin: 10px;
+    display: flex;
+}
+
+.lobby_chat{
+    height: 700px;
+}
+
+.not_loggedin_text{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.not_loggedin_text:hover{
+    /*TODO*/
+    transform: scale(1.03);
+}
+
+.button_style{
+    background-color: var(--button-color) !important;
+    color: black;
+}

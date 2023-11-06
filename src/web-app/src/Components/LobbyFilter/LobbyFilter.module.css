@@ -1,0 +1,39 @@
+@import '../../global.css';
+
+.lobbyfilter {
+	width: 95%;
+	margin: auto;
+	background-color: var(--button-color);;
+	opacity: 0.9;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 10px;
+
+	color: white;
+}
+
+.searchfield {
+	padding: 10px;
+	height: 100%;
+	width: 290px;
+
+	display: grid;
+	grid-template-columns: 20% 80%;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.searchfield_label {
+	vertical-align: middle;
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 5px;
+	float: left;
+}
+
+.searchfield_field {
+	background-color: white;
+	border-radius: 5px;
+	width: 100%;
+}
